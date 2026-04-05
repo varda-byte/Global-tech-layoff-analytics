@@ -16,7 +16,7 @@ def get_connection():
     return mysql.connector.connect(
         host="127.0.0.1",
         user="root",
-        password="root123",
+        password="your_password_here",
         database="layoff_analytics"
     )
 
